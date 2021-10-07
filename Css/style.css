@@ -1,0 +1,251 @@
+.card-img-overlay{
+    top: 30%;
+    left: 70%;
+}
+
+.card-title{
+    font-size: 1cm;
+    padding-left:60%;
+}
+
+.card-text{
+    color: #fff;
+}
+
+.contenedor-button{
+    padding-left: 150px;
+    
+}
+
+.personal1{
+    width: 100%;
+    height: 800px;
+    background-image: url('../Img/ba1.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.personal2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+.personal3{
+    position: relative;
+    color: #fff;
+    width: 29%;
+    margin-right: 100px;
+    float: right;
+    top: 50%;
+    text-align: right;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.personal3 h5{
+    font-size: 2.5em;
+}
+
+.texto{
+    text-align: center;
+}
+
+.fotos{ 
+    width: 100%;
+
+}
+
+.fotocenter{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.foto1{
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.steve{
+    width: 100%;
+    height: 450px;
+    background-image: url('../Img/steve.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bill{
+    width: 100%;
+    height: 450px;
+    background-image: url('../Img/bill.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.ada{
+    width: 100%;
+    height: 450px;
+    background-image: url('../Img/ada.jpeg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.boton-img{
+    margin: 30px auto 0px 25px;
+}
+
+.txfoto{
+    width: 90%;
+    margin: 5px 0px 0px 25px;
+}
+
+.Bs-Octubre{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.playa{
+    background-color: blueviolet;
+    width: 50%;
+    height: 600px;
+    background-image: url('../Img/honolulu.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.infoplaya{
+    width: 50%;
+    background-color:rgb(51, 51, 51);
+    color: #fff;
+    margin: 50px;
+}
+
+.infoplaya h3{
+    font-size: 3em;
+}
+
+.infoplaya p{
+    font-size: 1em;
+}
+
+.serorador{
+    text-align: center;
+}
+
+.from{
+    width: 100%;
+}
+
+.from2{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from2 input{
+    border-radius: 5px;
+    width: 49%;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.campo{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.campo textarea{
+    width: 100%;
+    height: 210px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.campo p{
+    text-align: left;
+    color: gray;
+}
+
+.campo button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: rgb(145, 197, 67);
+} 
+
+.footer{
+    background-color: rgb(70, 70, 126);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.elements{
+
+    position: relative;
+    width: 80%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.element{
+
+    position: relative;
+    display: inline;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1.2em;
+    font-family: Verdana;
+    height: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (max-width: 980px) { 
+	.element {
+		font-size: .8em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .elements {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1600px) { 
+	.element {
+		font-size: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .elements {
+        width: 100%;
+    }
+}
